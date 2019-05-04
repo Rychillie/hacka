@@ -1,8 +1,17 @@
 html, body {
-  padding: 16px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#d16ba5), color-stop(#c777b9), color-stop(#ba83ca), color-stop(#aa8fd8), color-stop(#9a9ae1), color-stop(#86a3e7), color-stop(#73abea), color-stop(#61b3e9), color-stop(#46bae5), color-stop(#33bfdb), color-stop(#33c4cf), to(#46c7bf));
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #86a3e7, #73abea, #61b3e9, #46bae5, #33bfdb, #33c4cf, #46c7bf);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .chart-container {
+  width: 80%;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.alerts {
   width: 80%;
   height: 480px;
   margin: 0 auto;
