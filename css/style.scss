@@ -1,0 +1,24 @@
+$montserrat: 'Montserrat', sans-serif;
+$helvetica: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+$black: #000;
+$white: #fff;
+$gray: #aaa;
+$dark: #2b2b2b;
+$inverted: #d4d4d4;
+
+$tablet: "screen and (min-width: 400px) and (max-width: 1050px)";
+$mobile: "screen and (max-width: 400px)";
+
+$dark-mode: "(prefers-color-scheme: dark)";
+$light-mode: "(prefers-color-scheme: light)";
+
+html,body {
+    padding: 16px;
+}
+
+.chart-container {
+    width: 80%;
+    height: 480px;
+    margin: 0 auto;
+}
