@@ -14,7 +14,7 @@
         }
     </style>
 
-    <link rel="stylesheet" href="https://rychillie.net/hacka/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="manifest" href="/manifest.json">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
@@ -26,17 +26,28 @@
 
 </head>
 <body>
-    <div class="chart-container">
-        <canvas id="speedChart"></canvas>
+    <nav>
+        <h1>Projeto</h1>
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="chart-container">
+            <canvas id="speedChart"></canvas>
+        </div>
+
+        <div class="alerts">
+            <p><b>Alerta:</b> Offline</p>
+            <p><b>Alerta:</b> Offline</p>
+            <p><b>Alerta:</b> Queda de Luz</p>
+            <p><b>Alerta:</b> Corte de Luz</p>
+        </div>
     </div>
 
-    <div class="alerts">
-        <p><b>Alerta:</b> Offline</p>
-        <p><b>Alerta:</b> Offline</p>
-        <p><b>Alerta:</b> Queda de Luz</p>
-        <p><b>Alerta:</b> Corte de Luz</p>
-    </div>
-
-    <script src="https://rychillie.net/hacka/js/chart.min.js"></script>
+    <script src="/js/chart.min.js"></script>
 </body>
 </html>
