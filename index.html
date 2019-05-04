@@ -15,8 +15,14 @@
     </style>
 
     <link rel="stylesheet" href="https://rychillie.net/hacka/css/style.css">
-
+    <link rel="manifest" href="/manifest.json">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("/sw.js");
+        }
+    </script>
 
 </head>
 <body>
