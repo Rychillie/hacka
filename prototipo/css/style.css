@@ -104,8 +104,9 @@ html, body {
 }
 
 .colors {
-  display: inline-block;
-  width: 100%;
+  display: inline;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .colors button {
@@ -123,7 +124,7 @@ html, body {
 
 .buttons {
   float: left;
-  width: 100%;
+  width: 50%;
 }
 
 .buttons input {
