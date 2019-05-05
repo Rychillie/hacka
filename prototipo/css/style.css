@@ -89,15 +89,23 @@ html, body {
   margin: 0 auto;
 }
 
+.full {
+  width: 100%;
+}
+
 .alerts {
-  margin: 25px 0;
-  text-align: center;
+  float: left;
+  width: 50%;
 }
 
 .divide {
-  width: 45%;
+  width: 50%;
   float: left;
-  margin: auto;
+}
+
+.colors {
+  display: inline-block;
+  width: 100%;
 }
 
 .colors button {
@@ -113,9 +121,16 @@ html, body {
   border: 0px;
 }
 
+.buttons {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
 .buttons input {
-  background-color: #736d75;
+  background-color: #fff;
   height: 50px;
+  color: black;
   text-align: center;
   width: 180px;
   margin-bottom: 10%;
