@@ -22,13 +22,13 @@ html,body {
     margin: 0;
 }
 
-.content{
+.content {
     width: 1280px;
     height: 720px;
     margin: auto;
 }
 
-.header{
+.header {
     text-decoration: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -42,7 +42,7 @@ html,body {
     align-items: center;
     margin-bottom: 5%;
 
-    h1 a{
+    h1 a {
         text-decoration: none;
         color: $white;
         display: inline-block;
@@ -55,19 +55,19 @@ html,body {
         transition: opacity .2s ease;
     }
 
-    h1 a:hover{
+    h1 a:hover {
         text-decoration: none;
         opacity: 0.6;
     }
 
-    nav{
+    nav {
         display: block;
         ul {
             list-style: none;
-            li{
+            li {
                 display: inline-block;
                 margin-left: 20px;
-                a{
+                a {
                     text-decoration: none;
                     letter-spacing: 2px;
                     color: $white;
@@ -82,7 +82,7 @@ html,body {
                     transition: opacity .2s ease;
                 }
 
-                a:hover{
+                a:hover {
                     text-decoration: none;
                     opacity: 0.6;
                 }
@@ -91,17 +91,33 @@ html,body {
     }
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-.chart-container{
+.wrapper { 
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.chart-container {
     width: 80%;
     margin: 0 auto;
 }
 
-.alerts{
+.alerts {
     margin: 25px 0;
     text-align: center;
 }
