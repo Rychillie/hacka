@@ -122,7 +122,6 @@ html, body {
 }
 
 .buttons {
-  display: inline-block;
   float: left;
   width: 50%;
 }
