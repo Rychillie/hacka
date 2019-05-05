@@ -103,10 +103,14 @@ html, body {
   float: left;
 }
 
-.colors {
-  display: inline;
-  width: 50%;
+central {
+  width: 29%;
   margin: 0 auto;
+}
+
+.colors {
+  display: inline-block;
+  width: 100%;
 }
 
 .colors button {
