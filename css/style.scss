@@ -96,6 +96,22 @@ html,body {
     margin: 0 auto;
 }
 
+.col-2 {
+    width: 16.66%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .chart-container {
     width: 80%;
     margin: 0 auto;
