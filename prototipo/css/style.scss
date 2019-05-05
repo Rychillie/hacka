@@ -13,6 +13,8 @@ $mobile: "screen and (max-width: 400px)";
 $dark-mode: "(prefers-color-scheme: dark)";
 $light-mode: "(prefers-color-scheme: light)";
 
+:focus { outline: none; }
+
 html,body {
     width: 100%;
     height: 100%;
@@ -127,6 +129,7 @@ html,body {
     button{
         background-color: #693a7d;
         height: 50px;
+        color: white;
         text-align: center;
         width: 180px;
         margin-bottom: 10%;
