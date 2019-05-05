@@ -94,6 +94,12 @@ html, body {
   text-align: center;
 }
 
+.divide {
+  width: 45%;
+  float: left;
+  margin: auto;
+}
+
 .colors button {
   background-color: #693a7d;
   height: 50px;
@@ -104,5 +110,19 @@ html, body {
   -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
   letter-spacing: 0.094em;
+  border: 0px;
+}
+
+.buttons input {
+  background-color: #736d75;
+  height: 50px;
+  text-align: center;
+  width: 180px;
+  margin-bottom: 10%;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.094em;
+  border: 0px;
 }
 /*# sourceMappingURL=style.css.map */
